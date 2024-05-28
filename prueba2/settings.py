@@ -81,10 +81,10 @@ WSGI_APPLICATION = 'prueba2.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.postgresql',
-        'NAME': 'restauranteElectiva',
-        'USER': 'jhon1087',
+        'NAME': 'postgres',
+        'USER': 'jhon123',
         'PASSWORD': 'Casos.20',
-        'HOST': 'restautanteelectiva2.postgres.database.azure.com',  # O la IP del servidor de tu base de datos
+        'HOST': 'proyectofinal.postgres.database.azure.com',  # O la IP del servidor de tu base de datos
         'PORT': '5432',  
         'OPTIONS': {
             'sslmode':'require'
